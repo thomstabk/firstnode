@@ -18,7 +18,6 @@ function start(response) {
 		response.writeHead(200, {"Content-Type": "text/html"});
 		response.write(body);
 		response.end();
-	});
 }
 
 function upload(response) {
